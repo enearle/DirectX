@@ -1,0 +1,176 @@
+﻿  Camera.cpp
+  d3dApp.cpp
+  d3dUtil.cpp
+  DDSTextureLoader.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  MathHelper.cpp
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(613,57): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(613,57): warning C4267:         with
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(613,57): warning C4267:         [
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(613,57): warning C4267:             _Ty=GeometryGenerator::uint32
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(613,57): warning C4267:         ]
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(650,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(650,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(724,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\Common\GeometryGenerator.cpp(724,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  FrameResource.cpp
+  GpuWaves.cpp
+  LabyrinthGen.cpp
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Labyrinth\LabyrinthGen.h(47,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'Labyrinth/LabyrinthGen.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Labyrinth\LabyrinthGen.h(212,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Labyrinth/LabyrinthGen.cpp')
+  
+  PhysicsEngine.cpp
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(552,38): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Physics/PhysicsEngine.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(559,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Physics/PhysicsEngine.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(577,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Physics/PhysicsEngine.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(580,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Physics/PhysicsEngine.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(581,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Physics/PhysicsEngine.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Physics/PhysicsEngine.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,98):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(566,33):
+  	see reference to function template instantiation 'std::future<void> std::async<void(__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int>(std::launch,_Fty,std::vector<Body,std::allocator<Body>> *&&,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *&&,int &&)' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1449,96):
+  	see reference to class template instantiation 'std::_Fake_no_copy_callable_adapter<_Fty,std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int>' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1422,10):
+  	while compiling class template member function 'void std::_Fake_no_copy_callable_adapter<_Fty,std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int>::operator ()(void)'
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1731,5):
+  		see the first reference to 'std::_Fake_no_copy_callable_adapter<_Fty,std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int>::operator ()' in 'std::invoke'
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1423,16):
+  	see reference to function template instantiation 'void std::_Invoke_stored<void(__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int>(std::tuple<void (__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int> &&)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1396,12):
+  	see reference to function template instantiation 'void std::_Invoke_stored_explicit<void(__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int,0,1,2,3>(std::tuple<void (__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int> &&,std::integer_sequence<size_t,0,1,2,3>)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1390,17):
+  	see reference to function template instantiation 'void std::invoke<void(__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int>(_Callable &&,_Ty1 &&,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *&&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=void (__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),
+              _Ty1=std::vector<Body,std::allocator<Body>> *
+          ]
+  
+  Week4-6-ShapesComplete.cpp
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Labyrinth\LabyrinthGen.h(47,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Labyrinth\LabyrinthGen.h(212,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(552,38): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(559,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(577,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(580,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(581,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(161,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(781,93): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(942,70): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(944,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(945,65): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(948,69): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(948,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(950,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(951,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(951,62): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(986,80): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(986,76): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(987,87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(987,83): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(988,80): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(988,76): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(990,86): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(997,81): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(999,76): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1000,80): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1001,83): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1001,79): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1001,75): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1002,85): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1002,81): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1002,77): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1103,42): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1109,36): warning C4267: '+=': conversion from 'size_t' to 'UINT', possible loss of data
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1768,100): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(1918,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Week4-6-ShapesComplete.cpp(2078,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Week4-6-ShapesComplete.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1741,98):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\DirectXProject\Physics\PhysicsEngine.h(566,33):
+  	see reference to function template instantiation 'std::future<void> std::async<void(__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int>(std::launch,_Fty,std::vector<Body,std::allocator<Body>> *&&,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *&&,int &&)' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1449,96):
+  	see reference to class template instantiation 'std::_Fake_no_copy_callable_adapter<_Fty,std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int>' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1422,10):
+  	while compiling class template member function 'void std::_Fake_no_copy_callable_adapter<_Fty,std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int>::operator ()(void)'
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  		C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\type_traits(1731,5):
+  		see the first reference to 'std::_Fake_no_copy_callable_adapter<_Fty,std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int>::operator ()' in 'std::invoke'
+          with
+          [
+              _Fty=void (__cdecl &)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float)
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1423,16):
+  	see reference to function template instantiation 'void std::_Invoke_stored<void(__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int>(std::tuple<void (__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int> &&)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1396,12):
+  	see reference to function template instantiation 'void std::_Invoke_stored_explicit<void(__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int,0,1,2,3>(std::tuple<void (__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,int> &&,std::integer_sequence<size_t,0,1,2,3>)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\future(1390,17):
+  	see reference to function template instantiation 'void std::invoke<void(__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),std::vector<Body,std::allocator<Body>>*,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>>*,int>(_Callable &&,_Ty1 &&,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *&&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=void (__cdecl *)(std::vector<Body,std::allocator<Body>> *,std::vector<DirectX::XMFLOAT3,std::allocator<DirectX::XMFLOAT3>> *,float),
+              _Ty1=std::vector<Body,std::allocator<Body>> *
+          ]
+  
+  Generating Code...
+  DirectXProject.vcxproj -> C:\Users\enearle\OneDrive\Desktop\Portfolio Pieces\DirectX\DirectX\DirectXProject\x64\Debug\DirectXProject.exe
